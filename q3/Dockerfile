@@ -12,7 +12,7 @@ EXPOSE 8080
 
 USER 1001 
 
-LABEL io.openshift.expose-service="8080:http"
+LABEL io.openshift.expose-services="8080:http"
   
 
 
